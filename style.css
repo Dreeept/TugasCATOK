@@ -1,0 +1,58 @@
+ table{
+    background-color:rgb(125, 84, 44);
+ }
+
+ .kotak{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(94, 142, 163);
+    transition: 2s;
+    text-align: center;
+    line-height: 100px; 
+    font-size: 35px;
+    font-family: Tahoma;
+    margin: 20px;
+    font-variant: inherit;
+}
+.container:hover .kotak{
+    transform: rotate(720deg);
+    margin-left: 1305px;
+    background-color: darkseagreen;
+}
+.centered-text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+ 
+ p::first-letter{  /*pseudo element  */
+
+    font-size: 40px;
+    color: white;
+    
+}
+
+.isi {
+    font-size: 15px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #000000;
+    padding: 10px;
+    color: white;
+}
+
+#judul{
+    color: white;
+}
+
+a{
+    color: #000000;
+}
+
+th{
+    background-color: rgb(198, 128, 53);
+}
